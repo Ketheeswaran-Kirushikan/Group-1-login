@@ -4,7 +4,7 @@
 
 
 .custom-img-height {
-	height: 550px;
+	height: 580px;
 	width: 500px;
   }
 .img-container{
@@ -90,7 +90,7 @@
 }
 .login-button{
 	width: 120px !important;
-	box-shadow: inset 0 0 10px rgba(10, 10, 71, 0.5);
+	box-shadow: inset 0 0 5px rgba(10, 10, 71, 0.259);
     cursor: pointer;
 	background-color: #0055c3;
 	color: #ffffff;
@@ -98,12 +98,10 @@
 	font-size: 18px !important;
 }
 .login-button:hover{
-	width: 150px !important;
 	box-shadow: inset 0 0 20px rgba(10,10,71,0.5);
-    cursor: pointer;
 	background-color: #053f8b;
 	color: #ffffff;
-	font-weight: 500;
+	
 }
 
 
