@@ -1,73 +1,124 @@
-body {
-	font-family: 'Roboto', sans-serif;
-}
-
-.container {
-	margin-top: 3rem; 
-}
-
-#login-form {
-  margin-top:1rem;
-	padding: 3rem;
-  background-color: #fff;
-	border-radius: 10px;
-	-webkit-box-shadow: 0px 5px 5px 0px rgba(114,138,175,1);
--moz-box-shadow: 0px 5px 5px 0px rgba(114,138,175,1);
-box-shadow: 0px 5px 5px 0px rgba(114,138,175,1);
+.background-login{
+	background-color: antiquewhite;
 }
 
 
-input {
-  background-color: #e3e3e3 !important;
-	margin-left: 1rem;
+.custom-img-height {
+	height: 550px;
+	width: 500px;
+  }
+.img-container{
+	padding: 0px;
+	margin: 0px;
+}
+  input::placeholder{
+	color: #9ea0a3 !important;
+  }
+  .icon-container{
+	padding-left: 10px;
+	padding-right: auto !important;
+  }
+  .input-border {
+    border-right: none !important;
+    border-left: 1px solid #a0a1a2;
+    border-radius: 0 !important;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+.input-border:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+.checkbox-shadow:focus {
+    outline: none;
+    box-shadow: none !important;
 }
 
-.login-header {
-  padding: 1rem;
+.div-row{
+	margin: 40px;
 }
 
-.submit, .form-check{
-	margin: 1rem;
+.class-border{
+	border:1px solid #a0a1a2 ;
+	border-radius: 5px !important;
+	background-color: white;
 }
-
-.register {
-	color:#0069d9;
-	Font-weight: 700;
+.remember-me{
+	color: rgba(0, 0, 255, 0.622);
 }
-
-.forgot-pass {
-	text-decosration:none;
-	color:#878787 ;
-	Font-weight: 700;
+.remember-me:hover{
+	color:rgb(0, 0, 95);
 }
-
 .social-login {
-	width: 75%;
-	margin: 2rem auto;
-	padding: 1rem;
-	border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.social-icons {
-	margin-right:1rem;
+.social-button i {
+    margin-right: 10px;
 }
 
-.facebook {
-	background-color: #4166B5;
-	color: #fff;
+.social-button span {
+    flex-grow: 1;
+    text-align: center;
 }
 
-.google {
-	background-color: #DC4C39;
-	color: #fff;
+
+.facebook-login {
+    background-color: #1877f2;
+    color: white;
 }
 
-.github {
-	background-color: #444444;
-	color: #fff;
+.google-login {
+    background-color: #dd4b39;
+    color: white;
 }
 
-.login-img{
-    height: 500px;
-    width: 500px;
+.twitter-login {
+    background-color:#1DA1F2;
+    color: white;
 }
+.login-button{
+	width: 120px !important;
+	box-shadow: inset 0 0 10px rgba(10, 10, 71, 0.5);
+    cursor: pointer;
+	background-color: #0055c3;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 18px !important;
+}
+.login-button:hover{
+	width: 150px !important;
+	box-shadow: inset 0 0 20px rgba(10,10,71,0.5);
+    cursor: pointer;
+	background-color: #053f8b;
+	color: #ffffff;
+	font-weight: 500;
+}
+
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  .divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black;
+  }
+  .or {
+    padding: 0 10px;
+  }
