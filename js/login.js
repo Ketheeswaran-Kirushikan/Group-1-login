@@ -1,13 +1,15 @@
-function subscribe() {
-    document.getElementById('overlay').style.display = 'block';
-    document.getElementById('error-message').style.display = 'none';
-    setTimeout(() => {
-        document.getElementById('error-message').style.display = 'block';
-        document.querySelector('.loader').style.display = 'none';
-    }, 2000);
-}
+function toggleLoginForm() {
+    var loginForm = document.getElementById('login-form');
+    var landingPageText = document.getElementById('landingpage-text');
+    if (loginForm.classList.contains('d-none')) {
+      loginForm.classList.remove('d-none');
+      landingPageText.classList.add('d-none');
 
-
+    } else {
+      loginForm.classList.add('d-none');
+      landingPageText.classList.remove('d-none');
+    }
+  }
 const screenPopup = document.getElementById('login-form');
 
 function closePopup(event) {

@@ -1,0 +1,163 @@
+body {
+    background: url(https://images.unsplash.com/photo-1415369629372-26f2fe60c467?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Lato;
+    color: #fff;
+    height: 100vh;
+  }
+
+  #landingpage .buttonclass{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 210px;
+
+  }
+  #landingpage .buttonclass button{
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #content {
+    text-align: center;
+    padding-top: 25%;
+    /*It's percent so that it changes as the screen gets resized.*/
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.4);
+  }
+  
+  h1 {
+    font-weight: 700;
+    font-size: 5em;
+  }
+
+  .background-login{
+	background-color: antiquewhite;
+}
+
+
+.custom-img-height {
+	height: 580px;
+	width: 500px;
+  }
+.img-container{
+	padding: 0px;
+	margin: 0px;
+}
+  input::placeholder{
+	color: #9ea0a3 !important;
+  }
+  .icon-container{
+	padding-left: 10px;
+	padding-right: auto !important;
+  }
+  .input-border {
+    border-right: none !important;
+    border-left: 1px solid #a0a1a2;
+    border-radius: 0 !important;
+	border-top: none !important;
+	border-bottom: none !important;
+}
+.input-border:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+.checkbox-shadow:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+
+.div-row{
+	margin: 40px;
+}
+
+.class-border{
+	border:1px solid #a0a1a2 ;
+	border-radius: 5px !important;
+	background-color: white;
+}
+.remember-me{
+	color: rgba(0, 0, 255, 0.622);
+}
+.remember-me:hover{
+	color:rgb(0, 0, 95);
+}
+.social-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.social-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-button i {
+    margin-right: 10px;
+}
+
+.social-button span {
+    flex-grow: 1;
+    text-align: center;
+}
+
+
+.facebook-login {
+    background-color: #1877f2;
+    color: white;
+}
+
+.google-login {
+    background-color: #dd4b39;
+    color: white;
+}
+
+.twitter-login {
+    background-color:#1DA1F2;
+    color: white;
+}
+.login-button{
+	width: 120px !important;
+	box-shadow: inset 0 0 5px rgba(10, 10, 71, 0.259);
+    cursor: pointer;
+	background-color: #0055c3;
+	color: #ffffff;
+	font-weight: 500;
+	font-size: 18px !important;
+}
+.login-button:hover{
+	box-shadow: inset 0 0 20px rgba(10,10,71,0.5);
+	background-color: #053f8b;
+	color: #ffffff;
+	
+}
+
+
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+  }
+  .divider::before, .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid black;
+  }
+  .or {
+    padding: 0 10px;
+  }
+  
